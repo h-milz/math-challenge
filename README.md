@@ -49,11 +49,17 @@ Die Musterlösung ist zwar richtig, fand ich aber wegen des Kunstgriffes 0! = 1 
 
     (|{0, 0, 0, 0, 0, 0}|)! = 6! = 720
 
-Das funktioniert natürlich mit sechs beliebigen Zahlen mit jeweils beliebig vielen Stellen, oder allgemein mit sechs beliebigen Objekten in einer Menge. Die in der Aufgabe genannten Zahlen habe ich pseudozufällig ausgewählt. Reine Ablenkung. Und richtig, die LLMs (um die ging es mir) versuchten sich wie gezeigt an wilden Rechnereien mit den Grundrechenarten. 
+Das funktioniert natürlich mit sechs beliebigen Zahlen mit jeweils beliebig vielen Stellen, oder allgemein mit sechs beliebigen Objekten in einer Menge. Die in der Aufgabe genannten Zahlen habe ich pseudozufällig ausgewählt. Reine Ablenkung. Und richtig, die LLMs (um die ging es mir) versuchten sich wie gezeigt an wilden Rechnereien mit den Grundrechenarten. Zugegeben (das habe ich auch als Feedback bekommen) war die Aufgabe sehr "sloppy" gestellt. Wie sich herausstellt, kann man mit brute force alle möglichen rechnerischen Kombinationen finden, die in Richtung Ergebnis gehen. Mir ging es aber darum heraus zu finden, ob die LLMs "out of the box" denken und auf die genannte kürzeste (eleganteste) Lösung kommen. Leider: Fehlanzeige. Vielleicht probiere ich es mit den Nullen nochmal. 
   
-Ich hoffe, dass mir die Aufgabenstellung nicht als Hochnäsigkeit ausgelegt wird, aber ich fand die Frage spannend, welche Lösungsansätze kommen würden, und habe selber eine Menge gelernt. Vor allem beim Programmieren in Python und C nutze ich ChatGPT viel und reichlich (für einen Moment den CO2-Footprint ignorierend), und wenn man mal gelernt hat, brauchbare Informationen von BS zu unterscheiden, ist das in diesem Bereich ein nützliches Werkzeug.   
+Die Aktion hier erhebt natürlich überhaupt keinen Anspruch auf statistische Relevanz - dazu war schon die Stichprobe zu klein, und freiwillige Teilnahme ist ja auch immer so eine Sache. Es ist also nur eine Momentaufnahme. 
+  
+Ich hoffe, dass mir die Aufgabenstellung nicht als Hochnäsigkeit ausgelegt wird, aber ich fand die Frage spannend, welche Lösungsansätze kommen würden, und habe selber eine Menge gelernt. Vor allem beim Programmieren in Python und C nutze ich ChatGPT viel und reichlich (für einen Moment den CO2-Footprint ignorierend), und wenn man mal gelernt hat, brauchbare Informationen von BS zu unterscheiden, ist das in diesem Bereich ein nützliches Werkzeug.
   
 Der Weg zur AGI (artificial general intelligence) scheint mir aber noch weit. 
+
+Den Teilnehmenden sei vielen Dank fürs Mitmachen! :-) 
+
+
 
 
 
