@@ -1,4 +1,43 @@
-# Kleine Mathe-Challenge
+# Second Run, 17.01.2026  
+  
+Ein Jahr nach dem ersten Test (s.u.) mit diesem eigentlich einfachen Problem machte ich einen zweiten Versuch, dieses Mal etwas klarer formuliert (hoffe ich). Vor allem hat mich interessiert, wie Mistral Le Chat hier performt, weil das aktuell die wohl viel versprechendste europäische Alternative zu den US-Anbietern und Deepseek ist.    
+  
+> Here's a simple math problem. Given are six three-digit numbers 187, 623, 435, 822, 774, and 378. With these numbers and    arbitrary mathematical operators, create the number 720. Each number must be used exactly once. Find the shortest and most elegant solution. 
+  
+Die Musterlösung ist wie zuvor  
+  
+> (|{187, 623, 435, 822, 774, 378}|)! = 6! = 720
+  
+D.h. die Mächtigkeit der Menge fakultiert ergibt 720, egal welche Zahlen (oder Objekte) man nimmt. Tatsächlich sind das Zufallszahlen, aber es hätten auch Pokémons sein können.
+
+Hier die jeweiligen Chats. 
+
+  * [ChatGPT Go](https://chatgpt.com/share/696b56de-f978-8001-a24a-9ff3419eb863)
+  * [Claude Sonnet 4.5](https://claude.ai/share/abeb0be8-7f8f-4b6a-af7c-50ddbd5d9699)
+  * [Deepseek](https://chat.deepseek.com/share/3chjabmdz5gn7j61nn)
+  * [Deepseek DeepThink](https://chat.deepseek.com/share/beicx8agh608mpwrtx)
+  * [Google Gemini (Pro)](https://gemini.google.com/share/3ef4f8260541)
+  * [Mistral AI, Le Chat](https://chat.mistral.ai/chat/4c89bc48-7aca-4078-8769-07777e452c1a)
+  
+ChatGPT Go und Claude gaben irgendwann auf und baten um die Lösung. Deepseek gab einfach auf. 
+
+Deepseek Deepthink konnte man wie üblich beim "Denken" zusehen (dabei jede Menge extra CO<sub>2</sub> erzeugend). Verhedderte sich aber genau so in den Grundrechenarten wie die anderen und kam nach etwa 10 Minuten mit einer Fantasielösung.   
+
+Gemini Fast scheiterte ebenso, und versuchte mir im Brustton der Überzeugung eine offentlich falsche Rechnung unterzujubeln:  (822+774+187)-(623+435+378) = 6, dann 6! = 720. Den Chat habe ich aber versehentlich gelöscht, sorry. 
+
+Google Gemini Pro kam nach ca. 5 Minuten auf eine wunderbar kurze und ziemlich elegante Idee ohne Mengenlehre, verletzte aber die Vorgabe, jede Zahl genau einmal zu verwenden. 
+
+Mistral Le Chat verhedderte sich ungezählte Male in derselben Schleife und lief offenbar irgendwann auf einen Timeout. 
+
+Effektiv probierten die meisten einfach nur mit den Zahlen herum und übersahen, dass Mathematik ein bißchen mehr ist als die Grundrechenarten. Einige fragten sogar nach, ob sie auch die Fakultät benutzen dürften - was ist an "arbitary math operators" nicht zu verstehen? Aber das ist genau, was man oft auf High-School-Level als "Math Quiz" findet und womit die LLMs vermutlich trainiert wurden. Was wenig über Mathematik sagt, aber eine Menge über High-School-Level und die Qualität von beliebig im Netz gescrapten Trainingsdaten.
+  
+Am Ende verriet ich die Lösung, um die Reaktionen zu testen. Was bringt diese Denkmaschinen dazu, mir stolz meine Lösung zu erklären, und dann teilweise auch noch falsch? Ein einfaches "OMG was bin ich blöd" hätte ja gereicht. 
+
+Ich vermute, wenn die LLMs in ihren internen Matrizen einmal auf der Schiene number juggling sind, womit sie alle fast instantan anfangen, kommen sie während dieser Session nicht mehr heraus. Ganz extrem hierbei DeepThink und LeChat, wobei Deepthink ein paar interessante Ideen hatte. 
+  
+Beim Planeten möchte ich mich für die sinnlosen 47 kg zusätzliches CO<sub>2</sub> entschuldigen. 
+
+# Kleine Mathe-Challenge, 30.01.2025
 
 Folgende Aufgabe habe ich an ChatGPT 4o and DeepSeek V3 gestellt. Beide sind krachend gescheitert. Das war aber zu erwarten, weil es sich um allgemein trainierte LLMs handelt, die nicht auf "reasoning" ausgelegt sind. Möglicherweise sind ChatGPT o3 und DeepSeek R1 besser - auf die habe ich aber keinen Zugriff. Anfrage läuft. 
 
